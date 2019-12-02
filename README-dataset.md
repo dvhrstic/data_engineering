@@ -10,13 +10,14 @@ Every dataset is a `.csv` file in a table format. Depending on a task each table
 ```
 
 results/
-  -task1_broadcast_right.csv
-  -DataFile2
-  -
+  - broadcast_right.csv
+  - product_user_count.csv
+  - 
 
 ```
+The columns names in this dataset are stated bellow with following datatype values:
 #### Task 1 - task1_broadcast_right.csv
-The columns in this dataset are following with following datatype values:
+
 ```
 dt - date originating from started_streams data : DATE [YYYY-MM-DD]
 time - time of user viewing a title from started_streams data : DATE [HH:MM:SS]
@@ -33,7 +34,19 @@ broadcast_right_start_date - from whatson data : DATE [YYYY-MM-DD]
 broadcast_right_end_date - from whatson data : DATE [YYYY-MM-DD]
 
 ```
-#### Task 2 - 
+#### Task 2 - product_user_count.csv
+```
+dt - date originating from started_streams data : DATE [YYYY-MM-DD]
+program_title	- from started_streams data : STRING
+device_name	- from started_streams data : STRING
+country_code - from started_streams data : STRING
+product_type - from started_streams data : STRING
+unique_users - number of unique users for each title : NUMBER
+content_count - the amount of views each product has : NUMBER
+
+```
+#### Task 3 - 
+
 
 
 
@@ -44,13 +57,7 @@ If the data includes images or audio, you can mention the file format eg.(.svg, 
 -500 images, format svg.
 ```
 
-## Online Repository link
 
-* [DataRepository](https://www.gitbhub) - Link to the data repository.
-
-## Authors
-
-* **authorname** - *Initial work* - [dvhrstic](https://github.com/dvhrstic)
 
 
 
