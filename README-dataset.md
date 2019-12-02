@@ -47,9 +47,9 @@ content_count - the amount of views each product has : NUMBER
 #### Task 3 - users_per_genre_hour.csv
 Here, the most popular genres and watching hours are ordered based on the number of unique users they have.
 ```
-watched_hour - The hour of the content being watched DATE [HH]. From started_streams \                 data, where the the hour is extracted from time variable
+watched_hour - The hour of the content being watched DATE [HH]. From started_streams data, where the the hour is extracted from time variable
 genre - from started_streams data : STRING
-unique_users - number of unique users for each title : NUMBER. Number of distinct\                     users watching a certain genre at certain hour.
+unique_users - number of unique users for each title : NUMBER. Number of distinct users watching a certain genre at certain hour.
 ```
 
 
